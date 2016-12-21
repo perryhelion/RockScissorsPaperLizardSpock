@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>Audio/applause.wav</file>
+        <file>Audio/luneichoose.wav</file>
+        <file>Audio/luneichoosed.wav</file>
+        <file>Audio/wolfichoose.wav</file>
+        <file>Audio/wolfichoosed.wav</file>
+        <file>Pics/choicequestion.png</file>
+        <file>Pics/choosedlizard.png</file>
+        <file>Pics/choosedpaper.png</file>
+        <file>Pics/choosedscissors.png</file>
+        <file>Pics/choosedspock.png</file>
+        <file>Pics/choosedstone.png</file>
+        <file>Pics/haschosen.png</file>
+        <file>Pics/justarrow.png</file>
+        <file>Pics/lizard.png</file>
+        <file>Pics/lune.png</file>
+        <file>Pics/newthing.png</file>
+        <file>Pics/paper.png</file>
+        <file>Pics/scissors.png</file>
+        <file>Pics/spock.png</file>
+        <file>Pics/stone.png</file>
+        <file>Pics/vs.png</file>
+        <file>Pics/wolfman.png</file>
+    </qresource>
+</RCC>

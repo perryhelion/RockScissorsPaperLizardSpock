@@ -1,0 +1,15 @@
+{
+    "name": "rockscissorspaperlizardspock.phelion",
+    "description": "A 2 player game for helping make decisions using a variation of 'Stone, Scissors, Paper'.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "RockScissorsPaperLizardSpock",
+    "hooks": {
+        "RockScissorsPaperLizardSpock": {
+            "apparmor": "RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock.apparmor",
+            "desktop": "RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "P Helion <perryhelionsemail@gmail.com>",
+    "framework": "ubuntu-sdk-15.04.6"
+}

@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-21 08:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:43
+msgid "Everyone"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:44
+msgid "Rock"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:44
+msgid "Scissors"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:44
+msgid "Paper"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:44
+msgid "Lizard"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:47
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:48
+msgid " blunts "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:47
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:49
+msgid " covers "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:47
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:50
+msgid " crushes "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:47
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:51
+msgid " vaporises "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:48
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:49
+msgid " cut "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:48
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:50
+msgid " decapitate "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:48
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:51
+msgid " smashes "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:49
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:50
+msgid " eats "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:49
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:51
+msgid " disproves "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:50
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:51
+msgid " poisons "
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:62
+msgid "...processing dramatic tension..."
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:149
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-Ubuntu_Device2_Nexus4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Release/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock.desktop.h:1
+msgid "RockScissorsPaperLizardSpock"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:216
+msgid "Lune to choose..."
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:267
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:343
+msgid "Make your choice then press 'Proceed'"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:288
+msgid "Wolfman to choose..."
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:364
+msgid "Who's decision will win?"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:490
+msgid "Done"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:500
+msgid " wins!"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:744
+msgid "The Electronic Decision Maker"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:772
+msgid "Info"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:791
+msgid "Play"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1081
+msgid "Proceed"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1138
+msgid "SeTTinGs & InFO"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1177
+msgid "How To Play"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1188
+msgid ""
+"RockScissorsPaperLizardSpock is a game for 2 players that can help break the "
+"stalemate of a decision by playing a variation of 'Stone, Scissors, Paper'.\n"
+"\n"
+"Each player makes their choice away from the prying eyes of their opponent "
+"and when the 2nd player has chosen and pressed 'Proceed', they can place the "
+"device down for both of them to see the drama unfold, the winner be unveiled "
+"and the decision be made...\n"
+"\n"
+"\n"
+"As in the traditional game - Rock blunts Scissors, Scissors cut Paper, Paper "
+"covers Rock - but we also have:\n"
+"\n"
+"SPOCK vaporises Rock and crushes Scissors, but is disproved by Paper and "
+"poisoned by Lizard.\n"
+"\n"
+"LIZARD eats Paper and poisons Spock, but is crushed by Rock and decapitated "
+"by Scissors.\n"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1203
+msgid "Summary Of Rules"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1214
+msgid ""
+"ROCK beats Scissors and Lizard - loses to Paper and Spock.\n"
+"\n"
+"SCISSORS beats Paper and Lizard - loses to Rock and Spock.\n"
+"\n"
+"PAPER beats Rock and Spock - loses to Scissors and Lizard.\n"
+"\n"
+"LIZARD beats Paper and Spock - loses to Rock and Scissors.\n"
+"\n"
+"SPOCK beats Rock and Scissors - loses to Paper and Lizard.\n"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1229
+msgid "Sound"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1274
+msgid "Scores"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1327
+msgid "Reset"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1351
+msgid "Dramatic Pause Length"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1368
+msgid " seconds"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1413
+msgid "Dramatic Pause Message"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1453
+msgid "Change"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1474
+msgid "Additional Info"
+msgstr ""
+
+#: /home/buntux1604/UbuntuSDK/02-CleanedUp/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1485
+msgid ""
+"'Rock Paper Scissors Spock Lizard' was invented by Sam Kass and Karen "
+"Bryla.\n"
+"\n"
+"The game has also been featured in an episode of 'The Big Bang Theory'.\n"
+"\n"
+"If playing by hand, the new choices would be represented by making the "
+"'Vulcan' sign for Spock and making a 'sock puppet' shape for Lizard.\n"
+"\n"
+msgstr ""

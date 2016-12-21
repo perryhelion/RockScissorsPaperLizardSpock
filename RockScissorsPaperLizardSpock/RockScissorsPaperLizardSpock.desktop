@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=RockScissorsPaperLizardSpock
+Exec=RockScissorsPaperLizardSpock
+Icon=RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
