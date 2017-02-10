@@ -1,11 +1,14 @@
 import QtQuick 2.4
 import Ubuntu.Components 1.3
 import QtMultimedia 5.0
+import Qt.labs.settings 1.0
 
 
 /*!
     RockScissorsPaperLizardSpock - A further experiment with qml and the Ubuntu SDK, this time with pictures & audio
         (an updated version of sTOnSCipAP with some improvements and with most of the code being able to be reused)
+
+        Version 0.2: Persistent Settings added
 */
 
 MainView {
@@ -34,11 +37,6 @@ MainView {
 
     property int winneris: 0
 
-    property int lunescore: 0
-    property int wolfscore: 0
-
-    property bool soundon: true
-
     property var divinethis: [ [0,1,2,1,2], [2,0,1,1,2], [1,2,0,2,1], [2,2,1,0,1], [1,1,2,2,0] ] // results in a 2 Dimensional array - 0 means draw, 1 is lunewin, 2 is wolfwin
     property var winnames: [ i18n.tr("Everyone"), "Lune", "Wolfman" ]
     property var choicetext: [ i18n.tr("Rock"), i18n.tr("Scissors"), i18n.tr("Paper"), i18n.tr("Lizard"), "Spock"] //Probably no need to translate 'Spock'
@@ -60,12 +58,28 @@ MainView {
     property var choice: ["qrc:/Pics/stone.png", "qrc:/Pics/scissors.png", "qrc:/Pics/paper.png", "qrc:/Pics/lizard.png", "qrc:/Pics/spock.png"]
 
     property var defaultdramaticpausemessage: i18n.tr("...processing dramatic tension...")
-    property var dramaticpausemessage: defaultdramaticpausemessage
 
     property int defaultdramatime: 7000
-    property int dramatime: defaultdramatime
 
     //property var infoitemspacing: units.gu(2)
+
+    Item {
+        id: saveablesettings
+        property int dramatime: defaultdramatime
+        property bool soundon: true
+        property string dramaticpausemessage: defaultdramaticpausemessage
+        property int lunescore: 0
+        property int wolfscore: 0
+    } //saveablesettings
+
+    Settings {
+        id: persistent
+        property alias persistentdramatime: saveablesettings.dramatime
+        property alias persistentsoundon: saveablesettings.soundon
+        property alias persistentdramaticpausemessage: saveablesettings.dramaticpausemessage
+        property alias persistentlunescore: saveablesettings.lunescore
+        property alias persistentwolfscore: saveablesettings.wolfscore
+    }
 
     Item {
         id: picchanger
@@ -143,6 +157,7 @@ MainView {
         Page {
             id: page0
             visible: false
+            state: "splashstate"
 
             header: PageHeader {
                 id: pageHeader
@@ -366,7 +381,7 @@ MainView {
 
                     PropertyChanges {
                         target: wordses
-                        text: dramaticpausemessage
+                        text: saveablesettings.dramaticpausemessage
                     }
 
                     PropertyChanges {
@@ -542,8 +557,8 @@ MainView {
             Timer {
                 id: falsedramatimer
                 running: false
-                interval: dramatime
-                onTriggered:  { page0.state = "outcomestate"; screenflash.stop(); stonepicanimation.stop(); scissorspicanimation.stop(); paperpicanimation.stop(); lizardpicanimation.stop(); spockpicanimation.stop(); if(soundon) applause.play() }
+                interval: saveablesettings.dramatime
+                onTriggered:  { page0.state = "outcomestate"; screenflash.stop(); stonepicanimation.stop(); scissorspicanimation.stop(); paperpicanimation.stop(); lizardpicanimation.stop(); spockpicanimation.stop(); if(saveablesettings.soundon) applause.play() }
 
             } //falsedramatimer
 
@@ -662,7 +677,7 @@ MainView {
 
                             Label {
                                 id: scorelune
-                                text: (lunescore > 0 || wolfscore > 0) ? lunescore : ""
+                                text: (saveablesettings.lunescore > 0 || saveablesettings.wolfscore > 0) ? saveablesettings.lunescore : ""
                                 anchors.bottom: parent.bottom
                                 anchors.horizontalCenter: parent.horizontalCenter
                                 font.pixelSize: units.gu(2)
@@ -709,7 +724,7 @@ MainView {
 
                             Label {
                                 id: scorewolf
-                                text: (lunescore > 0 || wolfscore > 0) ? wolfscore : ""
+                                text: (saveablesettings.lunescore > 0 || saveablesettings.wolfscore > 0) ? saveablesettings.wolfscore : ""
                                 anchors.bottom: parent.bottom
                                 anchors.horizontalCenter: parent.horizontalCenter
                                 font.pixelSize: units.gu(2)
@@ -769,7 +784,7 @@ MainView {
 
                         Button {
                             id: infobutton
-                            text: i18n.tr("Info")
+                            text: i18n.tr("Settings")
                             anchors.centerIn: parent
                             color: "#600000"
 
@@ -841,7 +856,7 @@ MainView {
                                                 lunechoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedstone.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     luneichoose.play()
                                             }
 
@@ -851,7 +866,7 @@ MainView {
                                                 wolfchoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedstone.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     wolfichoose.play()
                                             }
                                         }
@@ -888,7 +903,7 @@ MainView {
                                                 lunechoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedscissors.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     luneichoose.play()
                                             }
 
@@ -898,7 +913,7 @@ MainView {
                                                 wolfchoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedscissors.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     wolfichoose.play()
                                             }
 
@@ -936,7 +951,7 @@ MainView {
                                                 lunechoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedpaper.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     luneichoose.play()
                                             }
 
@@ -946,7 +961,7 @@ MainView {
                                                 wolfchoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedpaper.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     wolfichoose.play()
                                             }
                                         }
@@ -992,7 +1007,7 @@ MainView {
                                                 lunechoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedlizard.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     luneichoose.play()
                                             }
 
@@ -1002,7 +1017,7 @@ MainView {
                                                 wolfchoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedlizard.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     wolfichoose.play()
                                             }
                                         }
@@ -1038,7 +1053,7 @@ MainView {
                                                 lunechoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedspock.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     luneichoose.play()
                                             }
 
@@ -1048,7 +1063,7 @@ MainView {
                                                 wolfchoosed = true
                                                 rightpic.source = "qrc:/Pics/choosedspock.png"
 
-                                                if(soundon)
+                                                if(saveablesettings.soundon)
                                                     wolfichoose.play()
                                             }
                                         }
@@ -1086,7 +1101,7 @@ MainView {
                             if (page0.state == "lunechoosestate")
                                 if (lunechoosed)
                                 {
-                                    if(soundon)
+                                    if(saveablesettings.soundon)
                                         luneichoosed.play()
 
                                     bgcolour = wolfBGColour
@@ -1097,16 +1112,16 @@ MainView {
                             if (page0.state == "wolfchoosestate")
                                 if (wolfchoosed)
                                 {
-                                    if(soundon)
+                                    if(saveablesettings.soundon)
                                         wolfichoosed.play()
 
                                     winneris = divinethis[lunechoice][wolfchoice]
 
                                     if (winneris == 1)
-                                        lunescore++
+                                        saveablesettings.lunescore++
 
                                     else if (winneris == 2)
-                                        wolfscore++
+                                        saveablesettings.wolfscore++
 
                                     bgcolour = UbuntuColors.darkAubergine
                                     page0.state = "falsedramastate"
@@ -1243,19 +1258,19 @@ MainView {
 
                             Label {
                                 id: soundtext
-                                text: (soundon) ? "Sounds ON" : "Sounds OFF"
+                                text: (saveablesettings.soundon) ? "Sounds ON" : "Sounds OFF"
                                 color: UbuntuColors.orange
                                 anchors.verticalCenter: parent.verticalCenter
                             }
 
                             Switch {
                                 id: soundonswitch
-                                checked: true
+                                checked: saveablesettings.soundon
                                 anchors.verticalCenter: parent.verticalCenter
                                 anchors.right: parent.right
 
                                 onCheckedChanged: {
-                                    soundon = soundonswitch.checked
+                                    saveablesettings.soundon = soundonswitch.checked
                                 }
                             }
 
@@ -1296,7 +1311,7 @@ MainView {
 
                             Label {
                                 id: infoscorelune
-                                text: "  : " + lunescore
+                                text: "  : " + saveablesettings.lunescore
                                 color: UbuntuColors.orange
                                 anchors.left: scorelunepic.right
                                 anchors.verticalCenter: parent.verticalCenter
@@ -1314,7 +1329,7 @@ MainView {
 
                             Label {
                                 id: infoscorewolf
-                                text: "  : " + wolfscore
+                                text: "  : " + saveablesettings.wolfscore
                                 color: UbuntuColors.orange
                                 anchors.verticalCenter: parent.verticalCenter
                                 anchors.left: scorewolfpic.right
@@ -1330,8 +1345,8 @@ MainView {
                                 anchors.verticalCenter: parent.verticalCenter
 
                                 onClicked: {
-                                    lunescore = 0
-                                    wolfscore = 0
+                                    saveablesettings.lunescore = 0
+                                    saveablesettings.wolfscore = 0
                                 }
 
                             } //scoreresetbutton
@@ -1365,7 +1380,7 @@ MainView {
 
                             Label {
                                 id: dramaticvalue
-                                text: " " + dramatime/1000 + i18n.tr(" seconds")
+                                text: " " + saveablesettings.dramatime/1000 + i18n.tr(" seconds")
                                 color: UbuntuColors.orange
                                 anchors.verticalCenter: parent.verticalCenter
                             }
@@ -1379,8 +1394,8 @@ MainView {
                                 color: "#006000"
 
                                 onClicked: {
-                                    if (dramatime < 20000)
-                                        dramatime += 1000
+                                    if (saveablesettings.dramatime < 20000)
+                                        saveablesettings.dramatime += 1000
                                 }
                             } //dramaplus
 
@@ -1394,8 +1409,8 @@ MainView {
                                 color: "#005000"
 
                                 onClicked: {
-                                    if (dramatime > 3000)
-                                        dramatime -= 1000
+                                    if (saveablesettings.dramatime > 3000)
+                                        saveablesettings.dramatime -= 1000
                                 }
                             } //dramaminus
 
@@ -1427,7 +1442,7 @@ MainView {
 
                             Label {
                                 id: dmcurrent
-                                text: i18n.tr(dramaticpausemessage)
+                                text: saveablesettings.dramaticpausemessage
                                 color: UbuntuColors.orange
                                 anchors.centerIn: parent
                             }
@@ -1445,7 +1460,7 @@ MainView {
                                 width: parent.width/3 * 2
                                 anchors.left: parent.left
                                 anchors.verticalCenter: parent.verticalCenter
-                                placeholderText: dramaticpausemessage
+                                placeholderText: saveablesettings.dramaticpausemessage
                             }
 
                             Button {
@@ -1456,7 +1471,7 @@ MainView {
                                 color: "#600000"
 
                                 onClicked: {
-                                    dramaticpausemessage = messageinput.displayText
+                                    saveablesettings.dramaticpausemessage = messageinput.displayText
                                 }
                             } //dramamessagebutton
 
