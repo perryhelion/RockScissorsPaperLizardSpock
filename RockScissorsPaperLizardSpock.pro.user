@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.1.0, 2016-12-21T08:00:46. -->
+<!-- Written by QtCreator 4.1.0, 2017-02-10T13:55:49. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -8,7 +8,7 @@
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
-  <value type="int">3</value>
+  <value type="int">2</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.EditorSettings</variable>
@@ -62,11 +62,11 @@
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">UbuntuSDK for builder-armhf (GCC armhf-ubuntu-sdk-15.04)</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">UbuntuSDK for builder-armhf (GCC armhf-ubuntu-sdk-15.04)</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{5644d40a-e7ab-466a-bb48-69836b3c1343}</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">1</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_builder_armhf_GCC_armhf_ubuntu_sdk_15_04-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_builder_armhf_GCC_armhf_ubuntu_sdk_15_04-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -126,7 +126,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_builder_armhf_GCC_armhf_ubuntu_sdk_15_04-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_builder_armhf_GCC_armhf_ubuntu_sdk_15_04-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -186,7 +186,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_builder_armhf_GCC_armhf_ubuntu_sdk_15_04-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_builder_armhf_GCC_armhf_ubuntu_sdk_15_04-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -261,26 +261,11 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Upload files to Ubuntu Device</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">UbuntuProjectManager.UploadStep</value>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedFiles">
-       <value type="QString">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_builder_armhf_GCC_armhf_ubuntu_sdk_15_04-Release/rockscissorspaperlizardspock.phelion_0.1_armhf.click</value>
-       <value type="QString">/usr/ubuntu-sdk-ide/share/qtcreator/ubuntu/scripts/qtc_device_applaunch.py</value>
-      </valuelist>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedHosts">
-       <value type="QString">127.0.0.1</value>
-       <value type="QString">127.0.0.1</value>
-      </valuelist>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedRemotePaths">
-       <value type="QString">/tmp</value>
-       <value type="QString">/tmp</value>
-      </valuelist>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedSysroots">
-       <value type="QString">/var/lib/lxd/containers/builder-armhf/rootfs</value>
-       <value type="QString">/var/lib/lxd/containers/builder-armhf/rootfs</value>
-      </valuelist>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedTimes">
-       <value type="QDateTime">2016-12-21T07:45:31</value>
-       <value type="QDateTime">2016-12-21T07:45:31</value>
-      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedFiles"/>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedHosts"/>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedRemotePaths"/>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedSysroots"/>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedTimes"/>
      </valuemap>
      <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">2</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Deploy</value>
@@ -357,11 +342,11 @@
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">UbuntuSDK for desktop (GCC amd64-ubuntu-sdk-15.04)</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">UbuntuSDK for desktop (GCC amd64-ubuntu-sdk-15.04)</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{7de2d112-efe2-4438-b02f-2e4aa3cf6454}</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">1</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">-1</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -421,7 +406,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -481,7 +466,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop_GCC_amd64_ubuntu_sdk_15_04-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -583,11 +568,14 @@
      <value type="int">13</value>
      <value type="int">14</value>
     </valuelist>
-    <value type="int" key="PE.EnvironmentAspect.Base">1</value>
+    <value type="int" key="PE.EnvironmentAspect.Base">-1</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">RockScissorsPaperLizardSpock</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">UbuntuProjectManager.UbuntuRunConfiguration.Container.AppRockScissorsPaperLizardSpock</value>
+    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Arguments"></value>
+    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable"></value>
+    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.WorkingDirectory">%{buildDir}</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Custom Executable</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CustomExecutableRunConfiguration</value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -608,7 +596,7 @@
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">-1</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop1604_GCC_amd64_ubuntu_sdk_16_04-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop1604_GCC_amd64_ubuntu_sdk_16_04-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -668,7 +656,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop1604_GCC_amd64_ubuntu_sdk_16_04-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop1604_GCC_amd64_ubuntu_sdk_16_04-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -728,7 +716,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop1604_GCC_amd64_ubuntu_sdk_16_04-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_desktop1604_GCC_amd64_ubuntu_sdk_16_04-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -855,7 +843,7 @@
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-Ubuntu_Device2_Nexus4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-Ubuntu_Device2_Nexus4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -915,7 +903,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-Ubuntu_Device2_Nexus4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-Ubuntu_Device2_Nexus4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -975,7 +963,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/02-CleanedUp/build-RockScissorsPaperLizardSpock-Ubuntu_Device2_Nexus4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-Ubuntu_Device2_Nexus4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -1050,11 +1038,26 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Upload files to Ubuntu Device</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">UbuntuProjectManager.UploadStep</value>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedFiles"/>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedHosts"/>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedRemotePaths"/>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedSysroots"/>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedTimes"/>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedFiles">
+       <value type="QString">/usr/ubuntu-sdk-ide/share/qtcreator/ubuntu/scripts/qtc_device_applaunch.py</value>
+       <value type="QString">/home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-Ubuntu_Device2_Nexus4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Release/rockscissorspaperlizardspock.phelion_0.2_armhf.click</value>
+      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedHosts">
+       <value type="QString">127.0.0.1</value>
+       <value type="QString">127.0.0.1</value>
+      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedRemotePaths">
+       <value type="QString">/tmp</value>
+       <value type="QString">/tmp</value>
+      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedSysroots">
+       <value type="QString">/var/lib/lxd/containers/builder-armhf/rootfs</value>
+       <value type="QString">/var/lib/lxd/containers/builder-armhf/rootfs</value>
+      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.LastDeployedTimes">
+       <value type="QDateTime">2017-02-10T13:43:03</value>
+       <value type="QDateTime">2017-02-10T13:43:03</value>
+      </valuelist>
      </valuemap>
      <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">2</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Deploy</value>

@@ -12,138 +12,138 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:41
 msgid "Everyone"
-msgstr ""
+msgstr "Tout le monde"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:42
 msgid "Rock"
-msgstr ""
+msgstr "Rock"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:42
 msgid "Scissors"
-msgstr ""
+msgstr "Scissors"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:42
 msgid "Paper"
-msgstr ""
+msgstr "Paper"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:42
 msgid "Lizard"
-msgstr ""
+msgstr "Lizard"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:45
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:46
 msgid " blunts "
-msgstr ""
+msgstr " blunts "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:45
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:47
 msgid " covers "
-msgstr ""
+msgstr " covers "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:45
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:48
 msgid " crushes "
-msgstr ""
+msgstr " crushes "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:45
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:49
 msgid " vaporises "
-msgstr ""
+msgstr " vaporises "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:46
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:47
 msgid " cut "
-msgstr ""
+msgstr " cut "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:46
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:48
 msgid " decapitate "
-msgstr ""
+msgstr " decapitate "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:46
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:49
 msgid " smashes "
-msgstr ""
+msgstr " smashes "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:47
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:48
 msgid " eats "
-msgstr ""
+msgstr " eats "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:47
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:49
 msgid " disproves "
-msgstr ""
+msgstr " disproves "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:48
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:49
 msgid " poisons "
-msgstr ""
+msgstr " poisons "
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:60
 msgid "...processing dramatic tension..."
-msgstr ""
+msgstr "...traitement de la tension dramatique..."
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:164
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/build-RockScissorsPaperLizardSpock-UbuntuSDK_for_builder_armhf_GCC_armhf_ubuntu_sdk_15_04-Release/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock.desktop.h:1
 msgid "RockScissorsPaperLizardSpock"
-msgstr ""
+msgstr "RockScissorsPaperLizardSpock"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:231
 msgid "Lune to choose..."
-msgstr ""
+msgstr "À Lune de choisir..."
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:282
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:358
 msgid "Make your choice then press 'Proceed'"
-msgstr ""
+msgstr "Faites votre choix puis appuyez sur 'Continuer'"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:303
 msgid "Wolfman to choose..."
-msgstr ""
+msgstr "À Wolfman de choisir..."
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:379
 msgid "Who's decision will win?"
-msgstr ""
+msgstr "Quelle décision l'emportera?"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:505
 msgid "Done"
-msgstr ""
+msgstr "Terminé"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:515
 msgid " wins!"
-msgstr ""
+msgstr " gagne!"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:759
 msgid "The Electronic Decision Maker"
-msgstr ""
+msgstr "Le preneur de décision électronique"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:787
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:806
 msgid "Play"
-msgstr ""
+msgstr "Jouer"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1096
 msgid "Proceed"
-msgstr ""
+msgstr "Continuer"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1153
 msgid "SeTTinGs & InFO"
-msgstr ""
+msgstr "PaRAmèTres & InfORmaTiOnS"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1192
 msgid "How To Play"
-msgstr ""
+msgstr "Comment jouer"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1203
 msgid ""
@@ -185,31 +185,31 @@ msgstr ""
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1244
 msgid "Sound"
-msgstr ""
+msgstr "Sons"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1289
 msgid "Scores"
-msgstr ""
+msgstr "Scores"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1342
 msgid "Reset"
-msgstr ""
+msgstr "Réinitialiser"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1366
 msgid "Dramatic Pause Length"
-msgstr ""
+msgstr "Durée de la pause dramatique"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1383
 msgid " seconds"
-msgstr ""
+msgstr " secondes"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1428
 msgid "Dramatic Pause Message"
-msgstr ""
+msgstr "Message de la pause dramatique"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1468
 msgid "Change"
-msgstr ""
+msgstr "Modifier"
 
 #: /home/buntux1604/UbuntuSDK/03-WorkInProgress/RockScissorsPaperLizardSpock/RockScissorsPaperLizardSpock/Main.qml:1489
 msgid "Additional Info"
